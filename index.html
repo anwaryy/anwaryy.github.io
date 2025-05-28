@@ -405,7 +405,7 @@
         </div>
 
         <div class="row d-flex contact-info mb-5 justify-content-center">
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate">
                 <div class="align-self-stretch box p-4 text-center">
                     <a href="https://www.instagram.com/ahmadanwary_/" target="_blank" class="icon d-flex align-items-center justify-content-center">
                         <span class="icon-instagram"></span>
@@ -415,7 +415,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate">
                 <div class="align-self-stretch box p-4 text-center">
                     <a href="https://www.linkedin.com/in/adzirudin/" class="icon d-flex align-items-center justify-content-center">
                         <span class="icon-linkedin"></span>
@@ -425,17 +425,17 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate">
                 <div class="align-self-stretch box p-4 text-center">
                     <a href="mailto:anwaryahmad123@gmail.com" class="icon d-flex align-items-center justify-content-center">
                         <span class="icon-envelope"></span>
                     </a>
                     <h3 class="mb-4">Email Address</h3>
-                    <p><a href="mailto:anwaryahmad123@gmail.com">anwaryahmad123@gmail.com</a></p>
+                    <p class="email-text"><a href="mailto:anwaryahmad123@gmail.com">anwaryahmad123@gmail.com</a></p>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+            <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate">
                 <div class="align-self-stretch box p-4 text-center">
                     <a href="https://github.com/anwaryy" class="icon d-flex align-items-center justify-content-center">
                         <span class="icon-github"></span>
@@ -446,8 +446,19 @@
             </div>
         </div>
 
-        </div>
+    </div>
 </section>
+
+<style>
+    /* Menyesuaikan ukuran font untuk alamat email pada layar yang lebih kecil */
+    @media (max-width: 767.98px) { /* Untuk layar di bawah breakpoint 'md' (ponsel) */
+        .email-text a {
+            font-size: 0.8em; /* Membuat ukuran font lebih kecil */
+            overflow-wrap: break-word; /* Memungkinkan kata panjang (seperti alamat email) untuk memecah baris */
+        }
+    }
+</style>
+
 
 
 <footer class="bg-dark pt-5 pb-5">
